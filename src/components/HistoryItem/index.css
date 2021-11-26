@@ -1,0 +1,64 @@
+.list-contianer {
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+}
+
+@media screen and (min-width: 768px) {
+  .list-contianer {
+    align-items: center;
+  }
+}
+
+.logo-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.time {
+  font-size: 12px;
+}
+
+.domain-logo {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.time {
+  font-size: 12px;
+}
+
+@media screen and (min-width: 768px) {
+  .time {
+    margin-right: 20px;
+  }
+}
+
+.url {
+  font-size: 10px;
+}
+
+.button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: transparent;
+  align-self: flex-end;
+}
+
+@media screen and (min-width: 768px) {
+  .button {
+    margin-right: 30px;
+    align-self: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .card {
+    display: flex;
+  }
+}
